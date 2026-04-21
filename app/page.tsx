@@ -8,9 +8,9 @@ export default async function Home() {
   return (
     <div className="min-h-screen bg-slate-50 py-10 px-4">
       <div className="max-w-6xl mx-auto">
-        <header className="mb-10 border-l-4 border-slate-700 pl-6">
+        <header className="mb-10 border-l-4 border-[#0FA894] pl-6">
           <h1 className="text-6xl font-black uppercase tracking-tighter mb-2">
-            <span className="text-indigo-600">Меню на сегодня</span>
+            <span className="text-[#0FA894]">Меню на сегодня</span>
           </h1>
           <p className="text-slate-400 font-medium">
             {today.toLocaleDateString('ru-RU', { weekday: 'long', day: 'numeric', month: 'long' })}

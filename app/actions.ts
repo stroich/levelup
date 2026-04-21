@@ -14,6 +14,7 @@ export interface Nutrition {
 }
 
 export interface Recipe {
+    id: number
     day_number: number
     meal_type: 'breakfast' | 'lunch' | 'dinner'
     title: string
