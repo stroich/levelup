@@ -1,0 +1,114 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0fdf4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ecfdf5;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="plateGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f1f5f9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="400" fill="url(#bgGradient)" />
+
+  <!-- Decorative circles -->
+  <circle cx="80" cy="60" r="40" fill="#14b8a6" opacity="0.1" />
+  <circle cx="350" cy="320" r="50" fill="#0d9488" opacity="0.08" />
+  <circle cx="40" cy="250" r="35" fill="#06b6d4" opacity="0.1" />
+
+  <!-- Main Plate -->
+  <ellipse cx="200" cy="240" rx="110" ry="100" fill="url(#plateGradient)" stroke="#cbd5e1" stroke-width="3" />
+  
+  <!-- Plate shadow -->
+  <ellipse cx="200" cy="245" rx="110" ry="25" fill="#94a3b8" opacity="0.1" />
+
+  <!-- Vegetables Section (Left Half) -->
+  <!-- Broccoli -->
+  <g>
+    <circle cx="130" cy="200" r="18" fill="#059669" opacity="0.9" />
+    <path d="M 130 218 Q 125 225 130 230 Q 135 225 130 218" fill="#047857" />
+    <circle cx="130" cy="200" r="15" fill="#10b981" />
+    <circle cx="120" cy="195" r="6" fill="#10b981" />
+    <circle cx="140" cy="195" r="6" fill="#10b981" />
+    <circle cx="125" cy="185" r="5" fill="#10b981" />
+    <circle cx="135" cy="185" r="5" fill="#10b981" />
+  </g>
+
+  <!-- Carrot -->
+  <g>
+    <ellipse cx="150" cy="250" rx="8" ry="20" fill="#ea580c" transform="rotate(35 150 250)" />
+    <path d="M 145 230 L 155 230 L 155 228 L 145 228 Z" fill="#22c55e" />
+    <path d="M 145 228 L 148 223 L 152 228" fill="#22c55e" />
+  </g>
+
+  <!-- Bell Pepper (Yellow) -->
+  <g>
+    <path d="M 110 240 Q 100 230 105 215 Q 110 210 115 215 Q 120 230 110 240" fill="#eab308" />
+    <circle cx="110" cy="235" r="3" fill="#ca8a04" />
+  </g>
+
+  <!-- Leafy Green -->
+  <g>
+    <ellipse cx="95" cy="255" rx="12" ry="18" fill="#15803d" transform="rotate(-30 95 255)" opacity="0.8" />
+    <ellipse cx="95" cy="255" rx="10" ry="16" fill="#22c55e" transform="rotate(-30 95 255)" />
+    <path d="M 88 260 Q 95 265 102 260" stroke="#22c55e" stroke-width="1.5" fill="none" opacity="0.6" />
+  </g>
+
+  <!-- Protein Section (Right Half) -->
+  <!-- Chicken/Meat -->
+  <g>
+    <rect x="260" y="200" width="35" height="28" rx="4" fill="#b45309" />
+    <rect x="260" y="200" width="35" height="28" rx="4" fill="#d97706" opacity="0.8" />
+    <circle cx="268" cy="208" r="2.5" fill="#f59e0b" />
+    <circle cx="282" cy="212" r="2.5" fill="#f59e0b" />
+    <circle cx="275" cy="220" r="2.5" fill="#f59e0b" />
+  </g>
+
+  <!-- Grains Section (Bottom) -->
+  <!-- Brown Rice -->
+  <g>
+    <circle cx="200" cy="280" r="25" fill="#b45309" opacity="0.7" />
+    <circle cx="200" cy="280" r="22" fill="#d97706" />
+    <circle cx="188" cy="273" r="2" fill="#f59e0b" />
+    <circle cx="202" cy="270" r="2" fill="#f59e0b" />
+    <circle cx="212" cy="278" r="2" fill="#f59e0b" />
+    <circle cx="195" cy="290" r="2" fill="#f59e0b" />
+    <circle cx="210" cy="285" r="2" fill="#f59e0b" />
+  </g>
+
+  <!-- Water Glass -->
+  <g>
+    <rect x="280" y="260" width="30" height="45" rx="3" fill="none" stroke="#0ea5e9" stroke-width="2.5" />
+    <rect x="282" y="270" width="26" height="30" fill="#06b6d4" opacity="0.3" />
+    <path d="M 280 263 Q 295 265 310 263" fill="none" stroke="#0ea5e9" stroke-width="2" stroke-linecap="round" />
+    <!-- Water drops -->
+    <circle cx="295" cy="265" r="1.5" fill="#06b6d4" />
+    <circle cx="300" cy="267" r="1" fill="#06b6d4" opacity="0.7" />
+  </g>
+
+  <!-- Heart above plate -->
+  <g transform="translate(200, 100)">
+    <path d="M 0,-8 C -8,-16 -16,-12 -16,-4 C -16,4 -8,12 0,18 C 8,12 16,4 16,-4 C 16,-12 8,-16 0,-8 Z" fill="#ef4444" />
+    <circle cx="-8" cy="-4" r="2" fill="#fff" opacity="0.6" />
+    <circle cx="6" cy="2" r="2" fill="#fff" opacity="0.6" />
+  </g>
+
+  <!-- Plus sign accent -->
+  <g transform="translate(340, 120)">
+    <line x1="0" y1="-8" x2="0" y2="8" stroke="#14b8a6" stroke-width="2" stroke-linecap="round" />
+    <line x1="-8" y1="0" x2="8" y2="0" stroke="#14b8a6" stroke-width="2" stroke-linecap="round" />
+  </g>
+
+  <!-- Checkmark accent -->
+  <g transform="translate(70, 110)">
+    <circle cx="0" cy="0" r="12" fill="#10b981" opacity="0.2" />
+    <path d="M -6 0 L -2 4 L 6 -4" stroke="#059669" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- Decorative dots -->
+  <circle cx="50" cy="180" r="3" fill="#14b8a6" opacity="0.4" />
+  <circle cx="350" cy="200" r="2.5" fill="#0d9488" opacity="0.5" />
+  <circle cx="60" cy="330" r="2" fill="#06b6d4" opacity="0.4" />
+</svg>

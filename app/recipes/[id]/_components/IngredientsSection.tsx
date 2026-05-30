@@ -15,7 +15,7 @@ export default function IngredientsSection({ ingredients }: IngredientsSectionPr
                 <ul className="space-y-3">
                     {ingredients.map((ingredient, index) => (
                         <li key={index} className="flex items-start gap-3 text-slate-700">
-                            <span className="text-[#0FA894] font-bold mt-0.5">•</span>
+                            <span className="text-teal-500 font-bold mt-0.5">•</span>
                             <span className="text-base leading-relaxed">
                                 <strong>{ingredient.name}</strong> — {ingredient.amount}
                             </span>

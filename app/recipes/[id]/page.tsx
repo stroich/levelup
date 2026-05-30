@@ -40,7 +40,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                 <div className="max-w-6xl mx-auto">
                     <Link
                         href="/"
-                        className="inline-flex items-center gap-2 text-[#0FA894] hover:text-[#0F9080] font-semibold mb-10 transition"
+                        className="inline-flex items-center gap-2 text-teal-500 hover:text-teal-600 font-semibold mb-10 transition"
                     >
                         <span>←</span>
                         <span>Back to Menu</span>
@@ -49,7 +49,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                     <div className="rounded-3xl border border-slate-200 bg-white p-10 text-center shadow-recipe">
                         <h1 className="text-3xl font-bold text-slate-900 mb-2">Recipe Not Found</h1>
                         <p className="text-slate-600 mb-6">
-                            The recipe you're looking for doesn't exist. Please return to the menu and try again.
+                            The recipe you&apos;re looking for doesn&apos;t exist. Please return to the menu and try again.
                         </p>
                         <Link
                             href="/"

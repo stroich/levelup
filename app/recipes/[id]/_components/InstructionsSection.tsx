@@ -13,7 +13,7 @@ export default function InstructionsSection({ instructions }: InstructionsSectio
                 <ol className="space-y-4">
                     {instructions.map((instruction, index) => (
                         <li key={index} className="flex gap-4 text-slate-700">
-                            <span className="flex-shrink-0 flex items-center justify-center w-8 h-8 rounded-full bg-[#0FA894] text-white font-bold text-sm">
+                            <span className="flex-shrink-0 flex items-center justify-center w-8 h-8 rounded-full bg-teal-500 text-white font-bold text-sm">
                                 {index + 1}
                             </span>
                             <span className="text-base leading-relaxed pt-1">

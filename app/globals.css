@@ -3,6 +3,10 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --nutrition-primary: rgb(20 184 166);
+  --nutrition-bg: #FFFFFF;
+  --nutrition-value: #1F2937;
+  --nutrition-label: #6B7280;
 }
 
 @media (prefers-color-scheme: dark) {

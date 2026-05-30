@@ -31,10 +31,10 @@ export default function RecipeHero({ recipe }: RecipeHeroProps) {
 
             <div className="p-6">
                 <div className="flex items-center justify-between mb-4">
-                    <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[#0FA894]">
+                    <p className="text-xs font-semibold uppercase tracking-[0.24em] text-teal-500">
                         {recipe.meal_type}
                     </p>
-                    <span className="rounded-full bg-[#0FA894] px-3 py-1 text-[11px] font-semibold uppercase tracking-wide text-white">
+                    <span className="rounded-full bg-teal-500 px-3 py-1 text-[11px] font-semibold uppercase tracking-wide text-white">
                         {recipe.nutrition.calories} кКал
                     </span>
                 </div>

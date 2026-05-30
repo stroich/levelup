@@ -11,8 +11,8 @@ export default function NutritionFacts({ nutrition }: NutritionFactsProps) {
     const [isExpanded, setIsExpanded] = useState(false)
 
     return (
-        <div className="rounded-[16px] border-2 border-[#0FA894] bg-white p-8 shadow-[0_4px_6px_rgba(0,0,0,0.1)]">
-            <h2 className="text-sm font-black uppercase tracking-[0.24em] text-[#0FA894] mb-6">
+        <div className="rounded-[16px] border-2 border-teal-500 bg-white p-8 shadow-[0_4px_6px_rgba(0,0,0,0.1)]">
+            <h2 className="text-sm font-black uppercase tracking-[0.24em] text-teal-500 mb-6">
                 Пищевая ценность <span className="text-xs font-semibold">(на одну порцию)</span>
             </h2>
 

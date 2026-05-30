@@ -33,8 +33,8 @@ export default function RecipeCard({ recipe }: RecipeCardProps) {
 
                 <div className="space-y-5 p-6 flex-1 overflow-y-auto">
                     <div className="flex items-center justify-between">
-                        <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[#0FA894]">{recipe.meal_type}</p>
-                        <span className="rounded-full bg-[#0FA894] px-3 py-1 text-[11px] font-semibold uppercase tracking-wide text-white">
+                        <p className="text-xs font-semibold uppercase tracking-[0.24em] text-teal-500">{recipe.meal_type}</p>
+                        <span className="rounded-full bg-teal-500 px-3 py-1 text-[11px] font-semibold uppercase tracking-wide text-white">
                             {recipe.nutrition.calories} кКал
                         </span>
                     </div>
