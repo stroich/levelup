@@ -2,9 +2,8 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
-import { Recipe } from '@/app/actions'
 import React from 'react'
-
+import type { Recipe } from '@/types/recipe'
 
 interface RecipeCardProps {
     recipe: Recipe

@@ -1,6 +1,6 @@
 'use client'
 
-import { Nutrition } from '@/app/actions'
+import type { Nutrition } from '@/types/recipe'
 import { useState } from 'react'
 
 interface NutritionFactsProps {

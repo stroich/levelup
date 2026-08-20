@@ -1,6 +1,6 @@
 import { createClient } from "@/utils/supabase/server";
 import { cookies } from "next/headers";
-import { Recipe } from "@/app/actions";
+import type { Recipe } from "@/types/recipe";
 
 export async function getRecipeById(id: string): Promise<Recipe | null> {
     const cookieStore = await cookies();

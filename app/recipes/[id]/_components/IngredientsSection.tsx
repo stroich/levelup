@@ -1,4 +1,4 @@
-import { Ingredient } from '@/app/actions'
+import type { Ingredient } from '@/types/recipe'
 
 interface IngredientsSectionProps {
     ingredients: Ingredient[]

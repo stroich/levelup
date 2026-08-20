@@ -1,8 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 export default {
     content: [
-        "./app/**/*.{js,jsx,ts,tsx,mdx}",
-        "./components/**/*.{js,jsx,ts,tsx,mdx}",
+        './app/**/*.{js,jsx,ts,tsx,mdx}',
+        './components/**/*.{js,jsx,ts,tsx,mdx}',
     ],
     theme: {
         extend: {
@@ -34,12 +34,12 @@ export default {
                 },
             },
             boxShadow: {
-                'recipe': '0 4px 20px -2px rgba(0, 0, 0, 0.05)',
-                'nutrition': '0 4px 6px rgba(0, 0, 0, 0.1)',
+                recipe: '0 4px 20px -2px rgba(0, 0, 0, 0.05)',
+                nutrition: '0 4px 6px rgba(0, 0, 0, 0.1)',
             },
             borderRadius: {
-                'nutrition': '16px',
-            }
+                nutrition: '16px',
+            },
         },
     },
 }

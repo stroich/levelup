@@ -1,8 +1,8 @@
 'use client'
 
 import Image from 'next/image'
-import { Recipe } from '@/app/actions'
 import React from 'react'
+import type { Recipe } from '@/types/recipe'
 
 interface RecipeHeroProps {
     recipe: Recipe
