@@ -3,13 +3,10 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --nutrition-primary: rgb(20 184 166);
+  --nutrition-bg: #FFFFFF;
+  --nutrition-value: #1F2937;
+  --nutrition-label: #6B7280;
 }
 
 @media (prefers-color-scheme: dark) {
